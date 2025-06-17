@@ -1,0 +1,18 @@
+{
+  "name": "@chat/backend",
+  "version": "1.0.0",
+  "module": "dist/backend.esm-bundler.js",
+  "unpkg": "dist/backend.global.js",
+  "buildOptions": {
+    "name": "ChatBackend",
+    "formats": [
+      "global",
+      "esm-bundler",
+      "esm-browser",
+      "cjs"
+    ]
+  },
+  "dependencies": {
+    "@chat/shared": "workspace:*"
+  }
+}
