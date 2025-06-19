@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../shared/src/index.ts", "../../backend/src/index.ts", "../src/index.ts"],
-  "sourcesContent": ["export function isObject(val: unknown): boolean {\r\n  return typeof val === \"object\" && val !== null;\r\n}\r\n", "export function test() {\r\n  return 123;\r\n}\r\n", "import { isObject } from \"@chat/shared\";\r\nimport { test } from \"@chat/backend\";\r\nconsole.log(isObject({}));\r\nconsole.log(test());\r\n"],
-  "mappings": ";AAAO,SAAS,SAAS,KAAuB;AAC9C,SAAO,OAAO,QAAQ,YAAY,QAAQ;AAC5C;;;ACFO,SAAS,OAAO;AACrB,SAAO;AACT;;;ACAA,QAAQ,IAAI,SAAS,CAAC,CAAC,CAAC;AACxB,QAAQ,IAAI,KAAK,CAAC;",
-  "names": []
-}

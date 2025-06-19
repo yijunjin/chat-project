@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/dev.js frontend -f esm"
+    "dev": "pnpm -r dev"
   },
   "keywords": [],
   "author": "",
