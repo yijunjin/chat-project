@@ -12,7 +12,8 @@
     "lib": ["ESNext", "dom"],
     "baseUrl": ".",
     "paths": {
-      "@chat/*": ["packages/*/src"],
-    },
+      "@back": ["./apps/backend/src/*"],
+      "@shared/*": ["./packages/shared/src/*"],
+    }
   }
 }

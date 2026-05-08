@@ -26,6 +26,24 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Blizzard Card API Setup
+
+Add these environment variables before starting backend:
+
+```bash
+BLIZZARD_CLIENT_ID=BLIZZARD_CLIENT_ID
+BLIZZARD_CLIENT_SECRET=your_client_secret
+BLIZZARD_REGION=cn
+BLIZZARD_LOCALE=zh_CN
+```
+
+Available endpoints:
+
+```bash
+POST /hearthstone/cards/search
+POST /hearthstone/cards/opening-hand
+```
+
 ## Project setup
 
 ```bash
